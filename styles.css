@@ -1,0 +1,14 @@
+.game {
+    background-color: purple;
+     border: solid red 5px;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  height: 100vh;   /* makes .game fill the viewport height */
+  flex-direction: column; /* so h1 is above .user */
+}
+
+.user {
+  display: flex;
+  gap: 1rem;
+}
